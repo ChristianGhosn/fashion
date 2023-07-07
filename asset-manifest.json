@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fashion/static/css/main.5721b1aa.css",
+    "main.js": "/fashion/static/js/main.18055904.js",
+    "static/media/trending.png": "/fashion/static/media/trending.b24e5cbda9c176acdc8f.png",
+    "static/media/hero-img.png": "/fashion/static/media/hero-img.2653a079512ccef77cee.png",
+    "static/media/tees.png": "/fashion/static/media/tees.6abb227d01df95a6ff25.png",
+    "static/media/hoodies.png": "/fashion/static/media/hoodies.6da31b78ed9a2d42dd90.png",
+    "static/media/under40.png": "/fashion/static/media/under40.feacc52df594ec4c48e3.png",
+    "static/media/coats.png": "/fashion/static/media/coats.91956dada8a893c6e5ae.png",
+    "static/media/phone.png": "/fashion/static/media/phone.507f978214476ce3a0cd.png",
+    "static/media/sale.png": "/fashion/static/media/sale.59f77099ff7a143f61e4.png",
+    "static/media/lacoste.svg": "/fashion/static/media/lacoste.060f98adc05f5b144b00072fcc448c99.svg",
+    "static/media/shopify.svg": "/fashion/static/media/shopify.a6063a4d5e133999b1a9b1402f814dea.svg",
+    "static/media/h&m.svg": "/fashion/static/media/h&m.e995996f39f97287057c01b7d5c2da4f.svg",
+    "static/media/amazon.svg": "/fashion/static/media/amazon.4b29166be0145a5fd4c80a9877a7d51c.svg",
+    "static/media/levis.svg": "/fashion/static/media/levis.da6180a48862fa1462b14650deb544dc.svg",
+    "static/media/obey.svg": "/fashion/static/media/obey.2f63ba479ced8b2876f397ad72785df8.svg",
+    "static/media/logo.svg": "/fashion/static/media/logo.4115ce95d5431cd9f34ec9ceccb60a76.svg",
+    "index.html": "/fashion/index.html",
+    "static/media/arrow.svg": "/fashion/static/media/arrow.41877664a239d1497fa0a72690ac9f5f.svg",
+    "static/media/paint.svg": "/fashion/static/media/paint.da135c0826a555c5f1de75eefe8df40c.svg",
+    "main.5721b1aa.css.map": "/fashion/static/css/main.5721b1aa.css.map",
+    "main.18055904.js.map": "/fashion/static/js/main.18055904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5721b1aa.css",
+    "static/js/main.18055904.js"
+  ]
+}
