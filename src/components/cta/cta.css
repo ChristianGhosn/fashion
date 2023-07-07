@@ -1,0 +1,97 @@
+.cta {
+  background-color: #e5c643;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.cta h1 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 44px;
+  font-family: var(--font-base);
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 1.65px;
+  max-width: 800px;
+}
+
+.cta p {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 22px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.96px;
+  margin-bottom: 2rem;
+}
+
+.cta__input {
+  background-color: var(--color-white);
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+.cta__input input {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 8px;
+  width: 300px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+  .cta h1 {
+    font-size: 36px;
+    line-height: 65px;
+    max-width: 600px;
+  }
+  .cta p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cta h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 500px;
+  }
+  .cta p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cta h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    max-width: 500px;
+  }
+  .cta p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .cta__input input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta__input {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5c643;
+    align-items: center;
+  }
+  .cta__input input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}

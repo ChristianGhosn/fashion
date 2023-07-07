@@ -1,0 +1,123 @@
+.sale {
+  display: flex;
+  background: var(--sale-background);
+  justify-content: center;
+}
+
+.sale__img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.sale__img img {
+  width: 500px;
+}
+
+.sale__content {
+  padding: 4rem;
+}
+
+.sale__content__title {
+  width: 500px;
+}
+
+.sale__content__title h1 {
+  color: var(--color-black);
+  font-size: 78px;
+  font-family: var(--font-base);
+  font-weight: 900;
+  line-height: 80px;
+}
+
+.sale__content__description {
+  width: 400px;
+  padding: 1rem 0;
+}
+.sale__content__description p {
+  color: var(--color-black);
+  font-size: 24px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.721px;
+}
+
+.sale__content__tc {
+  color: var(--color-black);
+  font-size: 24px;
+  font-family: var(--font-base);
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.721px;
+}
+
+.sale__content__tc span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1150px) {
+  .sale__content__title h1 {
+    font-size: 68px;
+  }
+  .sale__img img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sale__content__title {
+    width: 400px;
+  }
+  .sale__content__title h1 {
+    font-size: 48px;
+  }
+
+  .sale__content__description p {
+    font-size: 18px;
+  }
+  .sale__content__tc {
+    font-size: 18px;
+  }
+  .sale__content__tc span {
+    font-size: 16px;
+  }
+
+  .sale__img img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sale {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .sale__img img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sale__content__title {
+    width: 300px;
+  }
+  .sale__content__title h1 {
+    font-size: 44px;
+  }
+  .sale__content__description {
+    width: 300px;
+  }
+  .sale__content__description p {
+    font-size: 16px;
+  }
+  .sale__content__tc {
+    font-size: 16px;
+  }
+  .sale__content__tc span {
+    font-size: 14px;
+  }
+}

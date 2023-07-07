@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;900&display=swap");
+
+:root {
+  --font-base: "Poppins";
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gold: #e6c744;
+  --color-gray: #c2c8da;
+  --color-lightgray: #f4f6f5;
+  --sale-background: linear-gradient(
+    360deg,
+    #e0c340 0%,
+    #dfc23e 3.93%,
+    #e1c441 7.23%,
+    #e3c743 10.23%,
+    #e4c542 13.14%,
+    #e6c744 16.22%,
+    #e7c845 19.84%,
+    #e5c643 24.38%,
+    #e6c945 31%,
+    #e3c743 37.19%,
+    #e9ca48 43.33%,
+    #edce49 50.36%,
+    #f0d44c 56.57%,
+    #f4d84f 62.71%,
+    #f6da52 67.12%,
+    #f7db53 73.77%,
+    #f9dd55 79.08%,
+    #f9df56 85.64%,
+    #fae157 93.5%,
+    #f9df56 100%
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }

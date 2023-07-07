@@ -1,0 +1,23 @@
+.brands {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 1rem 2rem;
+  background-color: var(--color-gold);
+}
+
+.brands__item {
+  align-self: center;
+  justify-self: center;
+}
+
+.brands__item img {
+  height: 75px;
+  width: 75px;
+}
+
+@media screen and (max-width: 850px) {
+  .brands {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+}

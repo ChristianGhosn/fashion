@@ -1,0 +1,118 @@
+.footer__content {
+  background-color: var(--color-black);
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__content__main h1 {
+  color: var(--color-white);
+  font-size: 40px;
+  font-family: var(--font-base);
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.footer__content__main p {
+  width: 400px;
+  color: var(--color-gray);
+  font-size: 18px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  margin-bottom: 8px;
+}
+
+.footer__content__main__socials {
+  display: flex;
+}
+
+.footer__content__main__socials__box {
+  margin: 4px;
+  background-color: #ebd96b;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__content__company {
+  color: var(--color-gray);
+  font-size: 16px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+
+.footer__content__company h5 {
+  color: var(--color-lightgray);
+  font-weight: 400;
+}
+
+.footer__content__quickLink {
+  color: var(--color-gray);
+  font-size: 16px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+
+.footer__content__quickLink h5 {
+  color: var(--color-lightgray);
+  font-weight: 400;
+}
+
+.footer__content__legal {
+  color: var(--color-gray);
+  font-size: 16px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+
+.footer__content__legal h5 {
+  color: var(--color-lightgray);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 850px) {
+  .footer__content__main h1 {
+    font-size: 36px;
+  }
+  .footer__content__main p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer__content__company {
+    font-size: 14px;
+  }
+  .footer__content__quickLink {
+    font-size: 14px;
+  }
+  .footer__content__legal {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer__content {
+    flex-direction: column;
+  }
+  .footer__content__main h1 {
+    font-size: 28px;
+  }
+  .footer__content__main p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

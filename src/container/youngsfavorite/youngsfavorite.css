@@ -1,0 +1,33 @@
+.youngsfavorite {
+  padding: 2rem;
+}
+
+.youngsfavorite__heading {
+  padding: 1rem 0 2rem 0;
+}
+
+.youngsfavorite__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.youngsfavorite__content__card {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1150px) {
+  .youngsfavorite__content__card {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .youngsfavorite__content__card {
+    width: 350px;
+    height: 350px;
+  }
+}

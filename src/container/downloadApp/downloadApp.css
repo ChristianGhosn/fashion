@@ -1,0 +1,82 @@
+.downloadApp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.downloadApp__content {
+  max-width: 475px;
+  padding: 2rem;
+}
+
+.downloadApp__content h1 {
+  color: var(--color-black);
+  font-size: 36px;
+  font-family: var(--font-base);
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 2.88px;
+}
+
+.downloadApp__content p {
+  max-width: 350px;
+  color: var(--color-gray);
+  font-size: 18px;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+}
+
+.downloadApp__content__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.downloadApp__content__buttons img {
+  width: 175px;
+  cursor: pointer;
+}
+
+.downloadApp__img img {
+  height: 500px;
+}
+
+@media screen and (max-width: 1150px) {
+  .downloadApp__content h1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .downloadApp {
+    flex-direction: column-reverse;
+  }
+  .downloadApp__img img {
+    height: 400px;
+  }
+  .downloadApp__content h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .downloadApp__content__buttons img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .downloadApp__img img {
+    height: 300px;
+  }
+  .downloadApp__content h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .downloadApp__content__buttons img {
+    width: 100px;
+  }
+}
